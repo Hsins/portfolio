@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Badge for License -->
+<div align="right">
+
+  [![](https://img.shields.io/github/license/Hsins/Portfolio.svg?style=flat-square)](./LICENSE)
+
+</div>
+
+<!-- Logo, Title and Description -->
+<div align="center">
+  <img src="https://i.imgur.com/8Gpu7dH.jpg" alt="Portfolio" height="150px">
+
+# Portfolio
+
+</div>
 
 ## Getting Started
 
