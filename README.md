@@ -11,41 +11,40 @@
 
 # Portfolio
 
+_🦔 Hsins' portfolio website, proudly built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/)._
+
 </div>
+
+> 🚧 Note that the project is still a constant work in progress. If you find any bugs, typos or other errors, please feel free to open an issue or request a pull request. Finally, this project is open source, you can just fork and adapt for your own projects (credit would be appreciated).
 
 ## Getting Started
 
-First, run the development server:
+### Development
+
+Clone and then run development server by following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# clone project and checkout branch
+$ git clone https://github.com/Hsins/Portfolio.git
+$ git checkout source
+
+# install dependencies and run development server
+$ yarn install
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now, site will running at [`http://localhost:3000`](http://localhost:3000) and the changes saving to source code will update in real time.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Deployment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy the Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## References
 
-- [Setting up a Next.js Application with TypeScript, JIT Tailwind CSS and Jest/react-testing-library](https://blog.antoniolofiego.com/setting-up-a-nextjs-application-with-typescript-jit-tailwind-css-and-jestreact-testing-library)
+- [Setting up a Next.js Application with TypeScript, JIT Tailwind CSS and Jest | Cloudy with a Chance of Software](https://blog.antoniolofiego.com/setting-up-a-nextjs-application-with-typescript-jit-tailwind-css-and-jestreact-testing-library)
+
+## License
+
+Licensed under the MIT License, Copyright © 2021 Hsins.

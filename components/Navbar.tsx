@@ -24,7 +24,7 @@ const Navbar = () => {
       {/* Navigation on desktop devices */}
       <div className="hidden md:flex">
         <Link href="/project">
-        <a className="text-blue-700 dark:text-yellow-400 p-2 mr-2 rounded hover:bg-blue-50 hover:dark:bg-gray-800">
+          <a className="text-blue-700 dark:text-yellow-400 p-2 mr-2 rounded hover:bg-blue-50 hover:dark:bg-gray-800">
             <AcademicCapIcon className="mx-1 w-5 h-5" />
           </a>
         </Link>
@@ -36,21 +36,20 @@ const Navbar = () => {
         </Link>
 
         <Link href="/uses">
-        <a className="text-blue-700 dark:text-yellow-400 p-2 mr-2 rounded hover:bg-blue-50 hover:dark:bg-gray-800">
+          <a className="text-blue-700 dark:text-yellow-400 p-2 mr-2 rounded hover:bg-blue-50 hover:dark:bg-gray-800">
             <CubeIcon className="mx-1 w-5 h-5" />
           </a>
         </Link>
 
-        <a
-          className="text-red-700 dark:text-blue-400 p-2 mr-2 rounded hover:bg-red-50 hover:dark:bg-gray-800"
-          to="/social"
-        >
-          <CameraIcon className="mx-1 w-5 h-5" />
-        </a>
+        <Link href="/uses">
+          <a className="text-red-700 dark:text-blue-400 p-2 mr-2 rounded hover:bg-red-50 hover:dark:bg-gray-800">
+            <CameraIcon className="mx-1 w-5 h-5" />
+          </a>
+        </Link>
       </div>
 
       {/* Navigation on mobile devices (dropdown menu) */}
-      <button
+      {/* <button
         className="md:hidden p-2"
         // ref={buttonRef}
         onClick={() => {
@@ -58,7 +57,7 @@ const Navbar = () => {
         }}
       >
         <MenuIcon className="w-5 h-5" />
-      </button>
+      </button> */}
     </nav>
   );
 };
